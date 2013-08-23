@@ -47,7 +47,7 @@ if ( intype.equals("RAC") ||  intype.equals("rac") )
         }
         stmt.close();
 
-        System.out.println (" \n Success!, connected with JDBC \n");
+        System.out.println (" \n Success!, connected successfully with JDBC \n");
 
 }
 
@@ -70,7 +70,7 @@ else
         }
         stmt.close();
 
-        System.out.println ("\n Success!, connected with JDBC \n");
+        System.out.println ("\n Success!, connected successfully with JDBC \n");
 
 }
 
