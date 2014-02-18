@@ -1,21 +1,21 @@
 #!/bin/bash
 
 
-printUsage()
+pUsage()
 {
 cat <<EOF
  Usage is :
  echo  "Wrong Usage ...."
                 echo "Usage is TestJdbc_ksh db_host instance user pass rac/na"
                 
-                echo "For testing RAC     : TestJdbc_ksh illin574v PNTCRMR_TAF sa sa rac"
-                echo "For testing Non_rac : TestJdbc_ksh illin1180 PI90ASM3 sa sa na"
+                echo "For testing RAC     : TestJdbc_ksh servr20 SERVICE99_TAF admin admin rac"
+                echo "For testing Non_rac : TestJdbc_ksh server80 INSTSM3 admin admin na"
 EOF
 }
 
 
 if [[ $# -ne 5 ]]; then
-        printUsage
+        pUsage
         exit;
 fi
 
